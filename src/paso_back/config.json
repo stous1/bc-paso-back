@@ -1,10 +1,18 @@
 {
-    "global":{
-        "IS_SETTED_UP"    : "SETTED_UP____ Y/N",
-        "IS_SEEDING"      : "SEEDING______ Y/N",
-        "ENV"             : "YOUR_ENV_____ DEV/PRD",
-        "DB"              : "DB___________ IMPALA/POSTGRESQL",
-        "SECRET_KEY"      : "YOUR_SECRET_KEY",
-        "ALGORITHM"       : "HS256"        
+    "globals":{
+        "is_setted_up"    : "SETTED_UP____ Y/N",
+        "is_seeding"      : "SEEDING______ Y/N",
+        "env"             : "YOUR_ENV_____ DEV/PRD",
+        "db"              : "DB___________ IMPALA/POSTGRESQL",
+        "secret_key"      : "YOUR_SECRET_KEY",
+        "algorithm"       : "HS256"        
+    },
+    "config-impala":{
+        "hostname"        : "",
+        "port"            : ""
+    },
+    "config-postgresql":{
+        "host"            : "",
+        "port"            : ""
     }
 }
